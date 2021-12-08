@@ -38,8 +38,6 @@ def kppv(x,appren,oracle,K):
     for i in range (0,len(x[0])):
         temp = plusProche(x[0][i],x[1][i],appren,oracle)
         clas[i]=temp
-    
-    print(clas)
     return clas
    
 def affiche_classe(x,clas,K):
